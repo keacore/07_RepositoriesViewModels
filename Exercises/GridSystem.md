@@ -9,7 +9,7 @@ Create a gruid system that produces the folowing:
 ![lg](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Exercises/img/Screen%20Shot%202017-04-19%20at%2022.35.49.png)
 
 ## Medium screens
-![md]()
+![md](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Exercises/img/Screen%20Shot%202017-04-19%20at%2022.35.53.png)
 
 ## Small screens
 ![sm]()
