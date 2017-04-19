@@ -12,7 +12,7 @@ Create a gruid system that produces the folowing:
 ![md](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Exercises/img/Screen%20Shot%202017-04-19%20at%2022.35.53.png)
 
 ## Small screens
-![sm]()
+![sm](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Exercises/img/Screen%20Shot%202017-04-19%20at%2022.35.59.png)
 
 ## X-small screens
 ![xs]()
