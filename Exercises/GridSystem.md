@@ -15,4 +15,4 @@ Create a gruid system that produces the folowing:
 ![sm](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Exercises/img/Screen%20Shot%202017-04-19%20at%2022.35.59.png)
 
 ## X-small screens
-![xs]()
+![xs](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Exercises/img/Screen%20Shot%202017-04-19%20at%2022.36.04.png)
