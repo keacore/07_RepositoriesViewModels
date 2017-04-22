@@ -5,7 +5,7 @@ namespace ConsoleApplication.Models.Repositories
 {
     interface IStudentRepository
     {
-        // basicc CRUD for Student
+        // basic CRUD for Student
         void Save(Student student);
         Student Get(int id);
         IEnumerable<Student> GetAll();
