@@ -14,3 +14,8 @@ We will look at:
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Repository.png" width="300">
 
 
+## ViewModels
+
+<img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/ViewModel.png" width="300">
+
+
