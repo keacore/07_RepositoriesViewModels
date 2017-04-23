@@ -22,11 +22,13 @@ We will look at:
 ### _Layout.cshtml
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/_Layout.png" width="400">    
 
-### _ViewStart.cshtml    
-    
+### _ViewStart.cshtml      
     
 ````CSharp
     @{
          Layout = "~/Views/Shared/_Layout.cshtml";
     }
 ````   
+
+### Partial View
+<img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Partial.png" width="400"> 
