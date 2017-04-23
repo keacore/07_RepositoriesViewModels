@@ -1,1 +1,16 @@
-# 07 Repositories, ViewModels
+# 07 Repositories, ViewModels, Partial Views, Boostrap Grid System
+
+To day we will work with a range of concepts used in ASP.NET MVC Web Development
+
+We will look at:
+
+* Repositories, which is a tecnique to achieve low coupling between the Controller classes and the DbContext class.
+* VievModels, which is a model like or entity classes, but it is designed to serve the right data to our views.
+* Partial Views, which deals with reuse of hmtl and razor code in our views
+* Bootstrap Grid System, which is an important part of Boostrap and is very usefull when designing the frontend of your application.
+
+
+## Repositories
+
+![Repositories]()
+
