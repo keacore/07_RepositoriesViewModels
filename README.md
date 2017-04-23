@@ -21,7 +21,7 @@ We will look at:
 ## Layout
 ### _Layout.cshtml
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/_Layout.png" width="400">
-### _ViewStart.cshtml
+###_ViewStart.cshtml
 
 ````CSharp
     @{
