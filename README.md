@@ -21,4 +21,4 @@ We will look at:
 ## Layout
 
 ### _Layout View
-![LayoutView]()
+<img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Layout.png" width="400">
