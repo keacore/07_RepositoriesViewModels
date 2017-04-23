@@ -15,6 +15,6 @@ We will look at:
 
 
 ## ViewModels
-<img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/ViewModel.png" width="300">
+<img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/ViewModel.png" width="400">
 
 
