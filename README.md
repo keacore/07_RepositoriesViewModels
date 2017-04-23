@@ -18,3 +18,7 @@ We will look at:
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/ViewModel.png" width="400">
 
 
+## Layout
+
+### _Layout View
+![LayoutView]()
