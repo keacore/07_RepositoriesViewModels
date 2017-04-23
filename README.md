@@ -12,5 +12,5 @@ We will look at:
 
 ## Repositories
 
-![Repositories](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Repository.png)
+![Repositories](https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Repository.png, 200)
 
