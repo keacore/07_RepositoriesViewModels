@@ -77,7 +77,7 @@ We will look at:
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/_Layout.png" width="400">    
 
 ````Razor    
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>@ViewBag.Title</title>
