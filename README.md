@@ -14,8 +14,7 @@ We will look at:
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Repository.png" width="300">
 
 ## Query related Database Tables
-
-
+<img src="https://github.com/keacore/04_Entity_Framework/blob/master/Materials/data-model-diagram.png" width="300">
 
 
 
