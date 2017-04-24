@@ -76,7 +76,8 @@ We will look at:
 ### _Layout.cshtml
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/_Layout.png" width="400">    
 
-````Razor    
+*_Layout.cshtml*
+````Razor  
 <!DOCTYPE html>
 <html lang="en">
     <head>
