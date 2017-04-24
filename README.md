@@ -13,6 +13,11 @@ We will look at:
 ## Repositories
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Repository.png" width="300">
 
+## Query related Database Tables
+
+
+
+
 
 ## ViewModels
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/ViewModel.png" width="400">
