@@ -30,8 +30,7 @@ We will look at:
         
         [DataTypeAttribute(DataType.Date)]
         [Display(Name = "Enrollment Date")]
-        public DateTime EnrollmenDate { get; set; }
-       
+        public DateTime EnrollmenDate { get; set;
         public int Age { get; set; }
 
         // Navigation prop
@@ -45,7 +44,8 @@ We will look at:
         public int CourseID { get; set; }
         public string Title { get; set; }
         public int Credits { get; set; }
-
+        
+        // Navigation prop
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
 ````    
