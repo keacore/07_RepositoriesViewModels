@@ -16,8 +16,7 @@ We will look at:
 ## Query related Database Tables
 <img src="https://github.com/keacore/04_Entity_Framework/blob/master/Materials/data-model-diagram.png" width="500">
 
-````CSharp
-    
+````CSharp  
     public class Student
     {
         public int StudentID { get; set; }
@@ -49,11 +48,9 @@ We will look at:
 
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
-
 ````    
 
 ````CSharp    
-    
     public class Enrollment
     {
         public int EnrollmentID { get; set; }
