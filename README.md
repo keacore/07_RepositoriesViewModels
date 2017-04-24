@@ -16,6 +16,58 @@ We will look at:
 ## Query related Database Tables
 <img src="https://github.com/keacore/04_Entity_Framework/blob/master/Materials/data-model-diagram.png" width="500">
 
+````CSharp
+    
+    public class Student
+    {
+        public int StudentID { get; set; }
+        
+        [Required]
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+        
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+        
+        [DataTypeAttribute(DataType.Date)]
+        [Display(Name = "Enrollment Date")]
+        public DateTime EnrollmenDate { get; set; }
+       
+        public int Age { get; set; }
+
+        // Navigation prop
+        public virtual ICollection<Enrollment> Enrollments { get; set; }
+    }
+````   
+
+````CSharp    
+    public class Course
+    {
+        public int CourseID { get; set; }
+        public string Title { get; set; }
+        public int Credits { get; set; }
+
+        public virtual ICollection<Enrollment> Enrollments { get; set; }
+    }
+
+`````     
+````CSharp    
+    
+    public class Enrollment
+    {
+        public int EnrollmentID { get; set; }
+        public int CourseID { get; set; }
+        public int StudentID { get; set; }
+        public int Grade { get; set; }
+
+        // Navigation prop
+        public Course Course { get; set; }
+        public Student Student { get; set; }
+    }
+````    
+
+
+
 
 
 ## ViewModels
