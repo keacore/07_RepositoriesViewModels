@@ -13,6 +13,64 @@ We will look at:
 ## Repositories
 <img src="https://github.com/keacore/07_RepositoriesViewModels/blob/master/Materials/img/Repository.png" width="300">
 
+````CSharp
+    public interface IStudentRepository
+    {
+        // basicc CRUD for Student
+        void Save(Student student);
+        Student Get(int id);
+        IEnumerable<Student> GetAll();
+        void Update(Student student);
+        void Delete(int id);
+    }
+````     
+
+````CSharp
+    public class StudentRepository : IStudentRepository
+    {
+        private MyDbContext _db;
+        private DbSet<Student> _students;
+        
+        public StudentRepository(MyDbContext db)
+        {
+            _db = db;
+            _students = db.Students;
+        }
+        public void Delete(int id)
+        {
+             throw new NotImplementedException();
+        }
+
+        public Student Get(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Student> GetAll()
+        {
+             throw new NotImplementedException();
+        }
+
+        public void Save(Student student)
+        {
+             throw new NotImplementedException();
+        }
+
+        public void Update(Student student)
+        {
+             throw new NotImplementedException();
+        }
+    }
+}
+
+````   
+
+
+
+
+
+
+
 ## Query related Database Tables
 <img src="https://github.com/keacore/04_Entity_Framework/blob/master/Materials/data-model-diagram.png" width="500">
 
