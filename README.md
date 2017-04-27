@@ -98,7 +98,18 @@ We will look at:
        ...
 ````    
 
+In Startup.cs
 
+````CSharp
+
+    public void ConfigureServices(IServiceCollection servises)
+    {
+            servises.AddMvc();
+            // Register the Service so it can be injected in the Controller when an object of that is made
+            servises.AddScoped<IStudentRepository, StudentRepository>();
+    }
+
+````
 
 
 
