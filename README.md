@@ -63,7 +63,47 @@ We will look at:
     }
 }
 
-````   
+````   
+````CSharp    
+    using System.Collections.Generic;
+using System.Linq;
+using ConsoleApplication.Models;
+using ConsoleApplication.Models.Entities;
+using ConsoleApplication.Models.Repositories;
+using ConsoleApplication.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace ConsoleApplication.Controllers
+{
+    public class StudentController : Controller
+    {
+        // Tightly Coupled
+        //MyDbContext db = new MyDbContext();
+        //private IStudentRepository studentRepository = new StudentRepository(new MyDbContext());
+
+        // Instead Dependency Inject
+        private IStudentRepository studentRepository;
+
+        public StudentController(IStudentRepository studentRepository)
+        {
+            this.studentRepository = studentRepository;
+        }
+        // Index
+        [HttpGet]
+        public IActionResult Index()
+        { 
+            IEnumerable<Student> students = studentRepository.GetAll();
+            return View(students);
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+       
+       ...
+````    
 
 
 
